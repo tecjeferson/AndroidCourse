@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jefersonrocha.ryanbirthday.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageRyan"
+        android:src="@drawable/ryan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"/>
+
+
+    <TextView
+        android:id="@+id/textVenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Venha me parabenizar"
+
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textDia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dia 10/10/2017"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/textLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rio de Janeiro"
+        android:layout_above="@id/textDia"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="italic"/>
+
+
+
+</RelativeLayout>
